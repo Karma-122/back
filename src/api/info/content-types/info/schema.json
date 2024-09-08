@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "logo_text": {
-      "type": "string"
-    },
     "logo": {
       "type": "media",
       "multiple": false,
@@ -84,6 +81,9 @@
     },
     "whatsapp_link": {
       "type": "string"
+    },
+    "logo_text": {
+      "type": "richtext"
     }
   }
 }

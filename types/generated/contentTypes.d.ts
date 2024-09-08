@@ -880,14 +880,12 @@ export interface ApiHomeHome extends Schema.SingleType {
   attributes: {
     hero_title: Attribute.String;
     hero_sub_title: Attribute.String;
-    hero_title_discription: Attribute.String;
     hero_bg: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     hero_placeholder: Attribute.String;
     hero_button: Attribute.String;
     spare_title: Attribute.String;
     spare_sub_title: Attribute.String;
     spare_bg: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    sapre_second_title: Attribute.String;
     spare_second_button: Attribute.String;
     spare_second_img: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     spare_second_sub_title: Attribute.String;
@@ -897,11 +895,13 @@ export interface ApiHomeHome extends Schema.SingleType {
     company_howitwork_title: Attribute.String;
     company_img: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     quest_title: Attribute.String;
-    quest_sub_title: Attribute.String;
     quest_placeholder_name: Attribute.String;
     quest_placeholder_phone: Attribute.String;
     quest_privacy: Attribute.String;
     quest_button: Attribute.String;
+    hero_title_discription: Attribute.RichText;
+    sapre_second_title: Attribute.RichText;
+    quest_sub_title: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -924,10 +924,10 @@ export interface ApiHomeSpareHomeSpare extends Schema.CollectionType {
     draftAndPublish: true;
   };
   attributes: {
-    spare_list_title: Attribute.String;
     spare_list_button: Attribute.String;
     spare_list_img: Attribute.Media<'images'>;
     sapre_list_link: Attribute.String;
+    spare_list_title: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -958,7 +958,6 @@ export interface ApiInfoInfo extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    logo_text: Attribute.String;
     logo: Attribute.Media<'images'>;
     contact_text: Attribute.String;
     contact: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
@@ -970,6 +969,7 @@ export interface ApiInfoInfo extends Schema.SingleType {
     mail_link: Attribute.String;
     telegram_link: Attribute.String;
     whatsapp_link: Attribute.String;
+    logo_text: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

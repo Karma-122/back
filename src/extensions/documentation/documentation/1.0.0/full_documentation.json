@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-09-08T10:48:50.163Z"
+    "x-generation-date": "2024-09-08T12:01:23.759Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1329,9 +1329,6 @@
               "hero_sub_title": {
                 "type": "string"
               },
-              "hero_title_discription": {
-                "type": "string"
-              },
               "hero_bg": {
                 "oneOf": [
                   {
@@ -1365,9 +1362,6 @@
                   }
                 ],
                 "example": "string or id"
-              },
-              "sapre_second_title": {
-                "type": "string"
               },
               "spare_second_button": {
                 "type": "string"
@@ -1408,9 +1402,6 @@
               "quest_title": {
                 "type": "string"
               },
-              "quest_sub_title": {
-                "type": "string"
-              },
               "quest_placeholder_name": {
                 "type": "string"
               },
@@ -1421,6 +1412,15 @@
                 "type": "string"
               },
               "quest_button": {
+                "type": "string"
+              },
+              "hero_title_discription": {
+                "type": "string"
+              },
+              "sapre_second_title": {
+                "type": "string"
+              },
+              "quest_sub_title": {
                 "type": "string"
               }
             }
@@ -1480,9 +1480,6 @@
             "type": "string"
           },
           "hero_sub_title": {
-            "type": "string"
-          },
-          "hero_title_discription": {
             "type": "string"
           },
           "hero_bg": {
@@ -2258,9 +2255,6 @@
               }
             }
           },
-          "sapre_second_title": {
-            "type": "string"
-          },
           "spare_second_button": {
             "type": "string"
           },
@@ -2556,9 +2550,6 @@
           "quest_title": {
             "type": "string"
           },
-          "quest_sub_title": {
-            "type": "string"
-          },
           "quest_placeholder_name": {
             "type": "string"
           },
@@ -2569,6 +2560,15 @@
             "type": "string"
           },
           "quest_button": {
+            "type": "string"
+          },
+          "hero_title_discription": {
+            "type": "string"
+          },
+          "sapre_second_title": {
+            "type": "string"
+          },
+          "quest_sub_title": {
             "type": "string"
           },
           "createdAt": {
@@ -2650,9 +2650,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "spare_list_title": {
-                "type": "string"
-              },
               "spare_list_button": {
                 "type": "string"
               },
@@ -2668,6 +2665,9 @@
                 "example": "string or id"
               },
               "sapre_list_link": {
+                "type": "string"
+              },
+              "spare_list_title": {
                 "type": "string"
               }
             }
@@ -2723,9 +2723,6 @@
       "HomeSpare": {
         "type": "object",
         "properties": {
-          "spare_list_title": {
-            "type": "string"
-          },
           "spare_list_button": {
             "type": "string"
           },
@@ -3354,6 +3351,9 @@
           "sapre_list_link": {
             "type": "string"
           },
+          "spare_list_title": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -3433,9 +3433,6 @@
           "data": {
             "type": "object",
             "properties": {
-              "logo_text": {
-                "type": "string"
-              },
               "logo": {
                 "oneOf": [
                   {
@@ -3508,6 +3505,9 @@
               },
               "whatsapp_link": {
                 "type": "string"
+              },
+              "logo_text": {
+                "type": "string"
               }
             }
           }
@@ -3562,9 +3562,6 @@
       "Info": {
         "type": "object",
         "properties": {
-          "logo_text": {
-            "type": "string"
-          },
           "logo": {
             "type": "object",
             "properties": {
@@ -4759,6 +4756,9 @@
             "type": "string"
           },
           "whatsapp_link": {
+            "type": "string"
+          },
+          "logo_text": {
             "type": "string"
           },
           "createdAt": {

@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "spare_list_title": {
-      "type": "string"
-    },
     "spare_list_button": {
       "type": "string"
     },
@@ -28,6 +25,9 @@
     },
     "sapre_list_link": {
       "type": "string"
+    },
+    "spare_list_title": {
+      "type": "richtext"
     }
   }
 }

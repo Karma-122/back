@@ -18,9 +18,6 @@
     "hero_sub_title": {
       "type": "string"
     },
-    "hero_title_discription": {
-      "type": "string"
-    },
     "hero_bg": {
       "type": "media",
       "multiple": false,
@@ -55,9 +52,6 @@
         "audios"
       ]
     },
-    "sapre_second_title": {
-      "type": "string"
-    },
     "spare_second_button": {
       "type": "string"
     },
@@ -88,19 +82,17 @@
       "type": "string"
     },
     "company_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "quest_title": {
-      "type": "string"
-    },
-    "quest_sub_title": {
       "type": "string"
     },
     "quest_placeholder_name": {
@@ -114,6 +106,15 @@
     },
     "quest_button": {
       "type": "string"
+    },
+    "hero_title_discription": {
+      "type": "richtext"
+    },
+    "sapre_second_title": {
+      "type": "richtext"
+    },
+    "quest_sub_title": {
+      "type": "richtext"
     }
   }
 }
