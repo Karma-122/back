@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_spares",
+  "info": {
+    "singularName": "home-spare",
+    "pluralName": "home-spares",
+    "displayName": "spare_list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "spare_list_title": {
+      "type": "string"
+    },
+    "spare_list_button": {
+      "type": "string"
+    },
+    "spare_list_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "sapre_list_link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero_title": {
+      "type": "string"
+    },
+    "hero_sub_title": {
+      "type": "string"
+    },
+    "hero_title_discription": {
+      "type": "string"
+    },
+    "hero_bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hero_placeholder": {
+      "type": "string"
+    },
+    "hero_button": {
+      "type": "string"
+    },
+    "spare_title": {
+      "type": "string"
+    },
+    "spare_sub_title": {
+      "type": "string"
+    },
+    "spare_bg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "sapre_second_title": {
+      "type": "string"
+    },
+    "spare_second_button": {
+      "type": "string"
+    },
+    "spare_second_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "spare_second_sub_title": {
+      "type": "string"
+    },
+    "company_title": {
+      "type": "string"
+    },
+    "company_descripton": {
+      "type": "json"
+    },
+    "company_howitwork": {
+      "type": "json"
+    },
+    "company_howitwork_title": {
+      "type": "string"
+    },
+    "company_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "quest_title": {
+      "type": "string"
+    },
+    "quest_sub_title": {
+      "type": "string"
+    },
+    "quest_placeholder_name": {
+      "type": "string"
+    },
+    "quest_placeholder_phone": {
+      "type": "string"
+    },
+    "quest_privacy": {
+      "type": "string"
+    },
+    "quest_button": {
+      "type": "string"
+    }
+  }
+}

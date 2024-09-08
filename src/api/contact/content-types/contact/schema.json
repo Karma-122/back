@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_title": {
+      "type": "string"
+    },
+    "contact_telegram_link": {
+      "type": "string"
+    },
+    "contact_skype_link": {
+      "type": "string"
+    },
+    "contact_viber_link": {
+      "type": "string"
+    },
+    "contact_whatsapp_link": {
+      "type": "string"
+    },
+    "contact_vk_link": {
+      "type": "string"
+    },
+    "contact_text1": {
+      "type": "string"
+    },
+    "contact_text2": {
+      "type": "string"
+    },
+    "contact_placeholder_name": {
+      "type": "string"
+    },
+    "contact_placeholder_email": {
+      "type": "string"
+    },
+    "contact_placeholder_text": {
+      "type": "text"
+    },
+    "contact_privacy": {
+      "type": "string"
+    },
+    "contact_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "contact_map": {
+      "type": "string"
+    },
+    "contact_button": {
+      "type": "string"
+    }
+  }
+}
