@@ -4,7 +4,8 @@
   "info": {
     "singularName": "info",
     "pluralName": "infos",
-    "displayName": "Info"
+    "displayName": "Info",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,60 +15,74 @@
     "logo_text": {
       "type": "string"
     },
-    "log": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "contact_text": {
       "type": "string"
     },
     "contact": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "whatsapp": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "telegram": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "mail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "adress": {
       "type": "string"
     },
     "politican": {
+      "type": "string"
+    },
+    "mail_link": {
+      "type": "string"
+    },
+    "telegram_link": {
+      "type": "string"
+    },
+    "whatsapp_link": {
       "type": "string"
     }
   }

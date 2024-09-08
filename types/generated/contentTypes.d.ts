@@ -952,13 +952,14 @@ export interface ApiInfoInfo extends Schema.SingleType {
     singularName: 'info';
     pluralName: 'infos';
     displayName: 'Info';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     logo_text: Attribute.String;
-    log: Attribute.Media<'images'>;
+    logo: Attribute.Media<'images'>;
     contact_text: Attribute.String;
     contact: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     whatsapp: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
@@ -966,6 +967,9 @@ export interface ApiInfoInfo extends Schema.SingleType {
     mail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     adress: Attribute.String;
     politican: Attribute.String;
+    mail_link: Attribute.String;
+    telegram_link: Attribute.String;
+    whatsapp_link: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
